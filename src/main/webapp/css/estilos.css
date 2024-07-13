@@ -1,0 +1,86 @@
+
+body{
+    background-color: #181419 !important;
+    color:white; 
+}
+
+input{
+    background-color: white;
+    color: #181419;
+    font-size: 14px;
+    border: 0;
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+}
+form{
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+form div{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boton{
+    background-color: rgb(182, 10, 10);
+    margin-left: 12px;
+    padding: 12px;
+    border-radius: 20px;
+    border-width: 0;
+}
+
+.sectionFormularioTabla
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:white;
+}
+
+th, td {
+    border: 1px solid rgb(182, 10, 10);
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: rgb(182, 10, 10); /* Fondo negro para resaltar el texto blanco */
+    color: white ; /* Texto en blanco */
+    text-align: center;
+}
+
+td {
+    color: white; /* Texto en blanco */
+    text-align: center;
+}
+
+header, footer {
+    flex-shrink: 0;
+}
+.btn-eliminar{
+    background-color: rgb(182, 10, 10);
+    margin-left: 12px;
+    padding: 12px;
+    border-radius: 20px;
+    border-width: 0;
+
+}
+.btn-editar{
+    background-color: rgb(182, 10, 10);
+    margin-left: 12px;
+    padding: 12px;
+    border-radius: 20px;
+    border-width: 0;
+
+}

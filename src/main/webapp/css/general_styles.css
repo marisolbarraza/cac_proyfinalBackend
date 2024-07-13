@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*general*/
+*{
+    font-family: 'Montserrat';
+    color: beige;
+    margin: 0%;
+    text-decoration: none;
+}
+.header{
+    background-color:rgb(182, 10, 10);
+    color:#ffffff;
+    height: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+/*encabezado de página*/
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+.titulo-web{
+    margin-left: 10px;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+
+/*pie de página*/
+.footer{
+    background-color: rgb(182, 10, 10);
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-footer{
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;   
+}
+
+.logo-redes{
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
